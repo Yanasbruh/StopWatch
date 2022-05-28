@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #27970e;
+}
+
+.isi {
+  margin-top: 10%;
+}
+.isi img {
+  width: 50%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background: transparent;
+  border-radius: 7px;
+  outline: none;
+  border: 3px solid #fff;
+  margin-left: 15px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+#sec,
+#min,
+#dot {
+  color: white;
+  font-size: 2rem;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #27970e;
+  font-weight: 900;
+}
